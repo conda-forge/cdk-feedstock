@@ -1,5 +1,5 @@
 {% set name = "cdk" %}
-{% set version = "2.5" %}
+{% set version = "2.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cdk/cdk/archive/refs/tags/cdk-{{ version }}.tar.gz
-  sha256: a4bdce79f0ba81b10298634874eba589cb0485b4ea02817f545546e23cfa92ec
+  sha256: 1ef9aeb31c57aca928f5fe037cf1b6bd37c4a93d5bd4d175ee15eaf3d7330c6e
 
 build:
   number: 0
@@ -34,7 +34,7 @@ about:
     - LICENSE
     - aggregate-third-party-report.html
 
-  summary: 'The CDK is an open-source Java library for cheminformatics and bioinformatics.'
+  summary: The CDK is an open-source Java library for cheminformatics and bioinformatics.
   description: |
     Molecule and reaction valence bond representation.
     Read and write file formats: SMILES, SDF, InChI, Mol2, CML, and others.
